@@ -1,0 +1,242 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;   
+    scroll-behavior: smooth;  
+}
+
+body {
+    background-image: linear-gradient(#b5eaff, #b5eaff,#4db0e9, #4db0e9, #2d68c2, #2d68c2, #2b3a92, #2b3a92);
+}
+
+.longscroll{
+    height: 1500px;
+}
+
+/* #ebf1f3 */
+.menu{
+    background-color: #b5eaff;
+    height: 150px;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.container1{
+    /* margin-top: 100px; */
+    height: 3000px;
+    background-color: transparent;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.subcontainer1{
+    height: 3000px;
+    width: 1000px;
+    background-color: rgb(241, 152, 125);
+    background-image: linear-gradient(rgb(241, 152, 125), rgb(241, 152, 125), rgb(201, 113, 86), rgb(172, 87, 62));
+    display: flex;
+    /* justify-content: center; */
+    align-items: top;
+}
+
+.openingtext {
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    letter-spacing: 1.6px;
+    word-spacing: 8px;
+    color: #ebf1f3;
+    margin-top: 40px;
+    text-align: left;
+    /* position: absolute; */
+}
+
+.text1 {
+    margin-top: 0.5in;
+    margin-left: 1in;
+    margin-right: 6in;
+    margin-bottom: 12px;
+}
+.text2 {
+    margin-left: 5.8in;
+    margin-right: 0.5in;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+.text3 {
+    margin-left: 1in;
+    margin-right: 5in;
+    font-size: 50px;
+}
+
+
+.gridcontainer {  
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". . window1-container"
+      "window2-container . .";
+    z-index: 2;
+    margin-top: 20px;
+    margin-right: 1.5in;
+    margin-left: 1.5in;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .window1-container { 
+        grid-area: window1-container; 
+    } 
+
+  .window2-container { 
+        grid-area: window2-container; 
+    }
+
+    img { 
+        height: auto;
+        max-height: 4in;
+    }
+
+button {
+    font-size: 20px;
+    font-family: 'Righteous', cursive;
+    letter-spacing: 2px;
+    background-color: transparent;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+  
+.window1 img{
+    height: auto;
+    position: relative; 
+}
+
+.curtain img{ 
+    height: 100%;
+    position: absolute; 
+    top: 500px;
+    z-index: 3;
+    padding-top: 0px;
+}
+
+.curtain img:hover {
+    transform: scaleY(0.14);
+    transform-origin: top;
+    transition-duration: 1s;
+    transition-delay: 0.05s;
+    top: 525px;
+}
+  
+.window2-1 img {
+    height: auto;
+    position: absolute; top: 922px;
+    z-index: 3;
+    margin-bottom: 1in;
+    padding-top: 0px;
+}
+
+.window2-2 img {
+    padding-top: 0px;
+    position: relative;
+}
+
+/* .window2-1 img:hover {
+    opacity: 0%;
+    transition-duration: 0.7s;
+} */
+
+
+
+.gridcontainer2 {  
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". . window3"
+      "window4 . ."
+      ". . window5";
+    margin-left: 140px;
+  }
+  
+  .window3 { 
+      grid-area: window3;
+      margin-bottom: 32px;
+     }
+  
+  .window4 { grid-area: window4; }
+
+  .window5 { grid-area: window5; }
+  
+
+audio {
+    position: sticky;
+    height: auto;
+    position: absolute, sticky; top: 500px; left: 0px; right: 5in;
+    z-index: 3;
+    margin-bottom: 0.48in;
+    padding-right: 50px;
+}
+
+.window4-1 img {
+    position: absolute;
+    z-index: 3;
+    top: 100;
+    padding-top: 0px;
+}
+.window4-2 img {
+    position: relative;
+}
+
+.window4-1 img:hover {
+    opacity: 0%;
+    transition-duration: 0.8s;
+} 
+
+.window5 {
+    position: relative;
+}
+
+button {
+    justify-content: top;
+    height: auto;
+    position: relative; 
+    top: -100px; 
+    left: -200px; 
+    z-index: 3;
+    bottom: 20px;
+    margin-bottom: 20px;
+    padding-right: 50px;
+}
+
+
+
+
+
+/* .Muffin-top img:hover {
+    transform: translateY(-2.8in);
+    transform-origin: center;
+    transition-duration: 1.5s;
+    transition-delay: 0.06s;
+    translate: -50px;
+} */
+
+
+
+
+
+
+
+
+
