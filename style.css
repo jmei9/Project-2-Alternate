@@ -6,21 +6,18 @@
 }
 
 body {
-    background-image: linear-gradient(#f0bc4c, #b5eaff,#4db0e9, #4db0e9, #2d68c2, #2d68c2, #2b3a92, #2b3a92);
+    background-image: linear-gradient(#f0bc4c,#2b2183, black, black);
 }
 
 .longscroll{
-    height: 1500px;
+    height: 1000px;
 }
 
-/* #ebf1f3 */
 .menu{
-    background-color: #b5eaff;
+    background-color: transparent;
     height: 150px;
     display: flex;
     padding: 20px;
-    align-items: center;
-    justify-content: center;
 }
 
 .container1{
@@ -37,41 +34,13 @@ body {
 .subcontainer1{
     height: 3000px;
     width: 1000px;
-    background-color: rgb(241, 152, 125);
-    background-image: linear-gradient(rgb(241, 152, 125), rgb(241, 152, 125), rgb(201, 113, 86), rgb(172, 87, 62));
+    background-color: black;
     display: flex;
     /* justify-content: center; */
     align-items: top;
 }
 
-.openingtext {
-    text-align: center;
-    font-family: 'Righteous', cursive;
-    letter-spacing: 1.6px;
-    word-spacing: 8px;
-    color: #ebf1f3;
-    margin-top: 40px;
-    text-align: left;
-    /* position: absolute; */
-}
 
-.text1 {
-    margin-top: 0.5in;
-    margin-left: 1in;
-    margin-right: 6in;
-    margin-bottom: 12px;
-}
-.text2 {
-    margin-left: 5.8in;
-    margin-right: 0.5in;
-    margin-bottom: 20px;
-    font-size: 50px;
-}
-.text3 {
-    margin-left: 1in;
-    margin-right: 5in;
-    font-size: 50px;
-}
 
 
 .gridcontainer {  
@@ -104,13 +73,6 @@ body {
         max-height: 4in;
     }
 
-button {
-    font-size: 20px;
-    font-family: 'Righteous', cursive;
-    letter-spacing: 2px;
-    background-color: transparent;
-    border: none;
-}
 
 a {
     text-decoration: none;
@@ -167,7 +129,8 @@ a {
       ". . window3"
       "window4 . ."
       ". . window5";
-    margin-left: 140px;
+    margin-left: 150px;
+    margin-top: 820px;
   }
   
   .window3 { 
@@ -207,36 +170,6 @@ audio {
 .window5 {
     position: relative;
 }
-
-button {
-    justify-content: top;
-    height: auto;
-    position: relative; 
-    top: -100px; 
-    left: -200px; 
-    z-index: 3;
-    bottom: 20px;
-    margin-bottom: 20px;
-    padding-right: 50px;
-}
-
-
-
-
-
-/* .Muffin-top img:hover {
-    transform: translateY(-2.8in);
-    transform-origin: center;
-    transition-duration: 1.5s;
-    transition-delay: 0.06s;
-    translate: -50px;
-} */
-
-
-
-
-
-
 
 
 
